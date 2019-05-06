@@ -205,7 +205,7 @@ html.overflow {
   height: auto;
   position: relative;
   overflow: hidden !important;
-  /*-webkit-overflow-scrolling: auto;*/
+  -webkit-overflow-scrolling: touch;
 }
 
 html.overflow body {

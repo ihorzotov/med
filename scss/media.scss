@@ -537,11 +537,21 @@
     &__item.nav-list__dropdown .title{
       width: auto;
     }
+    &__dropdown{
+      overflow: hidden;
+      max-height: 25px;
+      transition: max-height .5s;
+      padding-left: 30px;
+      margin-left: -30px!important;
+      width: calc(100% + 60px)!important;
+      .title:before{
+        transform: translateY(-50%) rotate(0deg)!important;
+      }
+    }
     &__dropdown.active{
-      .dropdown-menu{
-        max-height: 1000px;
-        margin-top: 25px;
-        transition-delay: 0s;
+      max-height: 1000px;
+      .title:before{
+        transform: translateY(-50%) rotate(-180deg)!important;
       }
     }
     &__select{
@@ -596,16 +606,12 @@
   .dropdown-menu {
     z-index: 20;
     position: static;
-    width: calc(100% + 60px)!important;
+    width: calc(100% + 30px)!important;
     transform: translateX(-30px)!important;
     border: none;
     background: #f8f8f8;
-    max-height: 0px;
     opacity: 1;
-    overflow: hidden;
-    overflow-y: hidden;
-    transition: max-height .5s, margin .3s;
-    transition-delay: 0s , .3s;
+    margin-top: 25px;
     &__services{
       position: static;
     }
