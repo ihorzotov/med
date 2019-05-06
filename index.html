@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>Document</title>
+    <link rel="icon" href="" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-content flex-c">
+      <div class="header__logo flex-c">
+        <img src="img/logo.png" class="image" class="" alt="">
+        <img src="img/hamburger.svg" class="hamburger" alt="">
+      </div>
+      <div class="nav-list flex-c">
+        <ul class="nav-list__container flex-c">
+          <li class="menu-content flex-c">
+            <span class="title">меню</span>
+            <i class="menu-content__close icon-uniE10A"></i>
+          </li>
+          <li class="nav-list__item hide1280">
+            <a href="#" class="title">О нас</a>
+          </li>
+          <li class="nav-list__item nav-list__dropdown show1280">
+            <span class="title js-menu-button">О нас</span>
+            <div class="dropdown-menu">
+              <ul class="dropdown-list">
+                <li class="dropdown-list__item"><a href="#">О нас</a></li>
+                <li class="dropdown-list__item"><a href="#">Направления</a></li>
+                <li class="dropdown-list__item"><a href="#">Контакты</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-list__item nav-list__dropdown">
+            <span class="title js-menu-button">УСЛУГИ И ЦЕНЫ</span>
+            <div class="dropdown-menu ">
+              <div class="dropdown-menu__services flex-s">
+                <div class="dropdown-menu__column flex-c">
+                  <p class="wb-title">организация лечения</p>
+                  <a href="#" class="dropdown-item">
+                    <div class="dropdown-item__img flex-c-c">
+                      <img src="img/di1.svg" alt="">
+                    </div>
+                    <p class="title">Подбор специалиста</p>
+                  </a>
+                  <a href="#" class="dropdown-item">
+                    <div class="dropdown-item__img flex-c-c">
+                      <img src="img/di2.svg" alt="">
+                    </div>
+                    <p class="title">Разработка программы лечения</p>
+                  </a>
+                  <a href="#" class="dropdown-item">
+                    <div class="dropdown-item__img flex-c-c">
+                      <img src="img/di3.svg" alt="">
+                    </div>
+                    <p class="title">Сопровождение пациента</p>
+                  </a>
+                  <a href="#" class="dropdown-item">
+                    <div class="dropdown-item__img flex-c-c">
+                      <img src="img/di4.svg" alt="">
+                    </div>
+                    <p class="title">Устный и письменный перевод</p>
+                  </a>
+                  <a href="#" class="dropdown-item">
+                    <div class="dropdown-item__img flex-c-c">
+                      <img src="img/di5.svg" alt="">
+                    </div>
+                    <p class="title">Помощь в приобретении необходимых лекарств</p>
+                  </a>
+                </div>
+                <div class="dropdown-menu__column flex-c">
+                  <p class="wb-title">организация приезда</p>
+                    <a href="#" class="dropdown-item">
+                      <div class="dropdown-item__img flex-c-c">
+                        <img src="img/di6.svg" alt="">
+                      </div>
+                      <p class="title">Оформление приглашения на лечение</p>
+                    </a>
+                    <a href="#" class="dropdown-item">
+                      <div class="dropdown-item__img flex-c-c">
+                        <img src="img/di7.svg" alt="">
+                      </div>
+                      <p class="title">Бронирование гостинницы</p>
+                    </a>
+                    <a href="#" class="dropdown-item">
+                      <div class="dropdown-item__img flex-c-c">
+                        <img src="img/di8.svg" alt="">
+                      </div>
+                      <p class="title">Заказ трансфера с аэропорта или вокзала</p>
+                    </a>
+                    <a href="#" class="dropdown-item">
+                      <div class="dropdown-item__img flex-c-c">
+                        <img src="img/di9.svg" alt="">
+                      </div>
+                      <p class="title">Организация свободного времени</p>
+                    </a>
+                    <a href="#" class="dropdown-item">
+                      <div class="dropdown-item__img flex-c-c">
+                        <img src="img/di10.svg" alt="">
+                      </div>
+                      <p class="title">Прокат авто, услуги водителя</p>
+                    </a>
+                </div>
+                <div class="dropdown-menu__bottom flex-c-c">
+                  <a href="#" class="dropdown-item flex-c">
+                    <div class="dropdown-item__img flex-c-c">
+                      <img src="img/di11.svg" alt="">
+                    </div>
+                    <p class="title">Онлайн консультация врача</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-list__item nav-list__dropdown">
+            <span class="title js-menu-button">КЛИНИКИ</span>
+            <div class="dropdown-menu">
+              <div class="dropdown-menu__medical flex-s">
+                <div class="mobile-tabs">
+                  <a href="#" class="link">Клиники</a>
+                  <a href="#" class="link">Реабилитационные центры</a>
+                </div>
+                <div class="dropdown-menu__tabs">
+                  <ul class="tabs-list">
+                    <li class="tabs-list__item active" data-target='medical'>клиники</li>
+                    <li class="tabs-list__item" data-target='facilities'>реабилитационные центры</li>
+                  </ul>
+                </div>
+                <div class="dropdown-menu__target active" data-target='medical'>
+                  <p class="tablet-title">клиники</p>
+                  <div class="dropdown-target">
+                    <a href="#" class="dropdown-target__card flex-c">
+                      <div class="block-info flex-c">
+                        <img src="img/medical1.png" alt="">
+                        <div class="block-info__description">
+                          <p class="name">Клиника «Асклепиос»</p>
+                          <p class="description">Центр пульмонологии и хирургии торакса</p>
+                        </div>
+                      </div>
+                      <div class="block-location">
+                        <p class="adress">Robert-Koch-Allee 2 82131 Gauting Bayern</p>
+                      </div>
+                    </a>
+                    <a href="#" class="dropdown-target__card flex-c">
+                      <div class="block-info flex-c">
+                        <img src="img/medical1.png" alt="">
+                        <div class="block-info__description">
+                          <p class="name">Клиника «Асклепиос»</p>
+                          <p class="description">Центр пульмонологии и хирургии торакса</p>
+                        </div>
+                      </div>
+                      <div class="block-location">
+                        <p class="adress">Robert-Koch-Allee 2 82131 Gauting Bayern</p>
+                      </div>
+                    </a>
+                    <a href="#" class="dropdown-target__card flex-c">
+                      <div class="block-info flex-c">
+                        <img src="img/medical1.png" alt="">
+                        <div class="block-info__description">
+                          <p class="name">Клиника «Асклепиос»</p>
+                          <p class="description">Центр пульмонологии и хирургии торакса</p>
+                        </div>
+                      </div>
+                      <div class="block-location">
+                        <p class="adress">Robert-Koch-Allee 2 82131 Gauting Bayern</p>
+                      </div>
+                    </a>
+                    <a href="#" class="dropdown-target__card flex-c">
+                      <div class="block-info flex-c">
+                        <img src="img/medical1.png" alt="">
+                        <div class="block-info__description">
+                          <p class="name">Клиника «Асклепиос»</p>
+                          <p class="description">Центр пульмонологии и хирургии торакса</p>
+                        </div>
+                      </div>
+                      <div class="block-location">
+                        <p class="adress">Robert-Koch-Allee 2 82131 Gauting Bayern</p>
+                      </div>
+                    </a>
+                    <a href="#" class="dropdown-target__card flex-c">
+                      <div class="block-info flex-c">
+                        <img src="img/medical2.png" alt="">
+                        <div class="block-info__description">
+                          <p class="name">Клиника «Асклепиос»</p>
+                          <p class="description">Центр пульмонологии и хирургии торакса</p>
+                        </div>
+                      </div>
+                      <div class="block-location">
+                        <p class="adress">Robert-Koch-Allee 2 82131 Gauting Bayern</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="dropdown-menu__target" data-target='facilities'>
+                  <p class="tablet-title">реабилитационные центры</p>
+                  <div class="dropdown-target">
+                    <a href="#" class="dropdown-target__card flex-c">
+                      <div class="block-info flex-c">
+                        <img src="img/medical2.png" alt="">
+                        <div class="block-info__description">
+                          <p class="name">Клиника «Асклепиос»</p>
+                          <p class="description">Центр пульмонологии и хирургии торакса</p>
+                        </div>
+                      </div>
+                      <div class="block-location">
+                        <p class="adress">Robert-Koch-Allee 2 82131 Gauting Bayern</p>
+                      </div>
+                    </a>
+                    <a href="#" class="dropdown-target__card flex-c">
+                      <div class="block-info flex-c">
+                        <img src="img/medical2.png" alt="">
+                        <div class="block-info__description">
+                          <p class="name">Клиника «Асклепиос»</p>
+                          <p class="description">Центр пульмонологии и хирургии торакса</p>
+                        </div>
+                      </div>
+                      <div class="block-location">
+                        <p class="adress">Robert-Koch-Allee 2 82131 Gauting Bayern</p>
+                      </div>
+                    </a>
+                    <a href="#" class="dropdown-target__card flex-c">
+                      <div class="block-info flex-c">
+                        <img src="img/medical2.png" alt="">
+                        <div class="block-info__description">
+                          <p class="name">Клиника «Асклепиос»</p>
+                          <p class="description">Центр пульмонологии и хирургии торакса</p>
+                        </div>
+                      </div>
+                      <div class="block-location">
+                        <p class="adress">Robert-Koch-Allee 2 82131 Gauting Bayern</p>
+                      </div>
+                    </a>
+                    <a href="#" class="dropdown-target__card flex-c">
+                      <div class="block-info flex-c">
+                        <img src="img/medical2.png" alt="">
+                        <div class="block-info__description">
+                          <p class="name">Клиника «Асклепиос»</p>
+                          <p class="description">Центр пульмонологии и хирургии торакса</p>
+                        </div>
+                      </div>
+                      <div class="block-location">
+                        <p class="adress">Robert-Koch-Allee 2 82131 Gauting Bayern</p>
+                      </div>
+                    </a>
+                    <a href="#" class="dropdown-target__card flex-c">
+                      <div class="block-info flex-c">
+                        <img src="img/medical1.png" alt="">
+                        <div class="block-info__description">
+                          <p class="name">Клиника «Асклепиос»</p>
+                          <p class="description">Центр пульмонологии и хирургии торакса</p>
+                        </div>
+                      </div>
+                      <div class="block-location">
+                        <p class="adress">Robert-Koch-Allee 2 82131 Gauting Bayern</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-list__item">
+            <a href="#" class="title">ОТЕЛИ</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#" class="title">ВРАЧИ</a>
+          </li>
+          <li class="nav-list__item hide1280">
+            <a href="#" class="title">НАПРАВЛЕНИЯ</a>
+          </li>
+          <li class="nav-list__item hide1280">
+            <a href="#" class="title">КОНТАКТЫ</a>
+          </li>
+          <li class="nav-list__select">
+            <div class="wrap-drop" data-ajax="Currency">
+              <div class="selected-el"><span></span></div>
+              <ul class="drop">
+                <li data-value="rub" class="selected"><a>Rub</a></li>
+                <li data-value="eur"><a>eur</a></li>
+                <li data-value="usd"><a>usd</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-list__select">
+            <div class="wrap-drop" data-ajax="Lang">
+              <div class="selected-el"><span></span></div>
+              <ul class="drop">
+                <li data-value="rus" class="selected"><img src="img/flag-rus.png" alt=""><a>рус</a></li>
+                <li data-value="eng"><img src="img/flag-eng.png" alt=""><a>eng</a></li>
+                <li data-value="dch"><img src="img/flag-dch.png" alt=""><a>dch</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="header__number">
+        <a href="tel:+49 176 412 26 000">+49 176 412 26 000</a>
+      </div>
+      <div class="wrap-drop" data-ajax="Currency">
+        <div class="selected-el"><span></span></div>
+        <ul class="drop">
+          <li data-value="rub" class="selected"><a>Rub</a></li>
+          <li data-value="eur"><a>eur</a></li>
+          <li data-value="usd"><a>usd</a></li>
+        </ul>
+      </div>
+      <div class="wrap-drop" data-ajax="Lang">
+        <div class="selected-el"><span></span></div>
+        <ul class="drop">
+          <li data-value="rus" class="selected"><img src="img/flag-rus.png" alt=""><a>рус</a></li>
+          <li data-value="eng"><img src="img/flag-eng.png" alt=""><a>eng</a></li>
+          <li data-value="dch"><img src="img/flag-dch.png" alt=""><a>dch</a></li>
+        </ul>
+      </div>
+      <div class="header__auth">
+        <button class="mobile-auth flex-c-c js-modal-btn" data-target="enter"><i class="icon-person"></i></button>
+        <button class="standart-btn  js-modal-btn" data-target="enter">Войти</button>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="main-frst">
+      <div class="wrapper">
+        <p class="wb-large">Организация лечения и реабилитации в лучших клиниках Германии</p>
+        <a href="#form" class="standart-btn btn-orange js-scroll">оставить заявку</a>
+      </div>
+    </div>
+    <div class="main-scnd" style="background-image: url(img/map.png);">
+      <div class="main-scnd__mobile">
+        <div class="wrapper">
+          <p class="wb-large">Преимущества</p>
+          <div class="scnd-card">
+            <div class="flex-c">
+              <div class="pl-circle flex-c-c" data-target='pl1'>
+                <img src="img/pl-circle1.svg" alt="">
+                <svg>
+                  <circle r='50' cx="52" cy="52"></circle>
+                </svg>
+              </div>
+              <span class="title">Сопровождение</span>
+            </div>
+            <p class="text">по городу, в клинику и обратно. Присутствие на приемах у врача</p>
+          </div>
+          <div class="scnd-card">
+            <div class="flex-c">
+              <div class="pl-circle flex-c-c" data-target='pl1'>
+                <img src="img/pl-circle2.svg" alt="">
+                <svg>
+                  <circle r='50' cx="52" cy="52"></circle>
+                </svg>
+              </div>
+              <span class="title">Умеренные цены</span>
+            </div>
+            <p class="text">ниже рыночной стоимости, по сравнению со всей территорией Германии</p>
+          </div>
+          <div class="scnd-card">
+            <div class="flex-c">
+              <div class="pl-circle flex-c-c" data-target='pl1'>
+                <img src="img/pl-circle3.svg" alt="">
+                <svg>
+                  <circle r='50' cx="52" cy="52"></circle>
+                </svg>
+              </div>
+              <span class="title">Современная медицина</span>
+            </div>
+            <p class="text">Мы сотрудничаем с клиниками, которые используют новейшие достижения в сфере медицины</p>
+          </div>
+          <div class="scnd-card">
+            <div class="flex-c">
+              <div class="pl-circle flex-c-c" data-target='pl1'>
+                <img src="img/pl-circle4.svg" alt="">
+                <svg>
+                  <circle r='50' cx="52" cy="52"></circle>
+                </svg>
+              </div>
+              <span class="title">Конфиденциаль&shy;ность</span>
+            </div>
+            <p class="text">Мы гарантируем честность и абсолютную конфиденциальность и сохранность ваших личных данных</p>
+          </div>
+          <div class="scnd-card">
+            <div class="flex-c">
+              <div class="pl-circle flex-c-c" data-target='pl1'>
+                <img src="img/pl-circle5.svg" alt="">
+                <svg>
+                  <circle r='50' cx="52" cy="52"></circle>
+                </svg>
+              </div>
+              <span class="title">Квалификация</span>
+            </div>
+            <p class="text">Все наши специалисты имеют большой опыт работы а так же дипломы и сертификаты</p>
+          </div>
+          <div class="scnd-card">
+            <div class="flex-c">
+              <div class="pl-circle flex-c-c" data-target='pl1'>
+                <img src="img/pl-circle6.svg" alt="">
+                <svg>
+                  <circle r='50' cx="52" cy="52"></circle>
+                </svg>
+              </div>
+              <span class="title">Медицинский перевод</span>
+            </div>
+            <p class="text">Мы предоставвляем как устный, так и письменный перевод мед.документации и консультаций</p>
+          </div>
+          <div class="scnd-card">
+            <div class="flex-c">
+              <div class="pl-circle flex-c-c" data-target='pl1'>
+                <img src="img/pl-circle7.svg" alt="">
+                <svg>
+                  <circle r='50' cx="52" cy="52"></circle>
+                </svg>
+              </div>
+              <span class="title">Индивидуальный подход</span>
+            </div>
+            <p class="text">к каждому нашему клиенту. Мы всегда на связи и готовы помочь</p>
+          </div>
+        </div>
+      </div>
+      <div class="map-block">
+        <div class="circle-s"></div>
+        <div class="circle-l"></div>
+        <div class="map-block__circle">
+          <div class="planet-block">
+            <div class="pl-circle pl-1 pos-l pos-bottom flex-c-c" data-target='pl1'>
+              <img src="img/pl-circle1.svg" alt="">
+              <svg>
+                <circle r='50' cx="52" cy="52"></circle>
+              </svg>
+            </div>
+            <div class="pl-circle pos-l pl-2 pos-middle flex-c-c" data-target='pl2'>
+              <img src="img/pl-circle2.svg" alt="">
+              <svg>
+                <circle r='50' cx="52" cy="52"></circle>
+              </svg>
+            </div>
+            <div class="pl-circle pos-l pl-3 pos-top flex-c-c" data-target='pl3'>
+              <img src="img/pl-circle3.svg" alt="">
+              <svg>
+                <circle r='50' cx="52" cy="52"></circle>
+              </svg>
+            </div>
+            <div class="pl-circle pos-center pl-4 flex-c-c" data-target='pl4'>
+              <img src="img/pl-circle4.svg" alt="">
+              <svg>
+                <circle r='50' cx="52" cy="52"></circle>
+              </svg>
+            </div>
+            <div class="pl-circle pos-r pos-top pl-5 flex-c-c" data-target='pl5'>
+              <img src="img/pl-circle5.svg" alt="">
+              <svg>
+                <circle r='50' cx="52" cy="52"></circle>
+              </svg>
+            </div>
+            <div class="pl-circle pos-r pos-middle pl-6 flex-c-c" data-target='pl6'>
+              <img src="img/pl-circle6.svg" alt="">
+              <svg>
+                <circle r='50' cx="52" cy="52"></circle>
+              </svg>
+            </div>
+            <div class="pl-circle pos-r pos-bottom pl-7 flex-c-c" data-target='pl7'>
+              <img src="img/pl-circle7.svg" alt="">
+              <svg>
+                <circle r='50' cx="52" cy="52"></circle>
+              </svg>
+            </div>
+            <div class="planet-block__bg" style="background-image: url(img/map-bg.png);">
+              <div class="target-content" data-target='pl1'>
+                <p class="title">Сопровождение</p>
+                <p class="description">по городу, в клинику и обратно. Присутствие на приемах у врача</p>
+              </div>
+              <div class="target-content" data-target='pl2'>
+                <p class="title">Умеренные цены</p>
+                <p class="description">ниже рыночной стоимости, по сравнению со всей территорией Германии</p>
+              </div>
+              <div class="target-content" data-target='pl3'>
+                <p class="title">Современная медицина</p>
+                <p class="description">Мы сотрудничаем с клиниками, которые используют новейшие достижения в сфере медицины</p>
+              </div>
+              <div class="target-content" data-target='pl4'>
+                <p class="title">Конфиденциальность</p>
+                <p class="description">Мы гарантируем честность и абсолютную конфиденциальность и сохранность ваших личных данных</p>
+              </div>
+              <div class="target-content" data-target='pl5'>
+                <p class="title">Квалификация</p>
+                <p class="description">Все наши специалисты имеют большой опыт работы а так же дипломы и сертификаты</p>
+              </div>
+              <div class="target-content" data-target='pl6'>
+                <p class="title">Медицинский перевод</p>
+                <p class="description">Мы предоставвляем как устный, так и письменный перевод медицинской  документации и консультаций</p>
+              </div>
+              <div class="target-content" data-target='pl7'>
+                <p class="title">Индивидуальный подход</p>
+                <p class="description">к каждому нашему клиенту. Мы всегда на связи и готовы помочь</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="services-block">
+        <p class="wb-large">УСЛУГИ</p>
+        <div class="flex-s">
+          <div class="service-card card-title">
+            <p class="wb-title">Онлайн консультация</p>
+          </div>
+          <a href="" class="service-card card-large">
+            <div class="service-card__content">
+              <div class="service-card__img flex-c">
+                <img src="img/di11.svg" alt="">
+              </div>
+              <p class="title">Онлайн консультация врача</p>
+              <p class="text">Eсли Вы не планируете выезд на лечение в Германию, но хотите получить личную 
+                 консультацию немецких специалистов, перепроверить поставленный диагноз 
+                 или просто узнать второе мнение, вы можете заказать услугу онлайн-консультации.</p>
+            </div>
+          </a>
+        </div>
+        <div class="flex-s">
+          <div class="service-card card-title">
+            <p class="wb-title">Организация лечения</p>
+          </div>
+          <a href="" class="service-card">
+            <div class="service-card__content">
+              <div class="service-card__img flex-c">
+                <img src="img/di1.svg" alt="">
+              </div>
+              <p class="title">Подбор специалиста</p>
+              <p class="text">Eсли Вы не планируете выезд на лечение в Германию, но хотите получить личную 
+                 консультацию немецких специалистов, перепроверить поставленный диагноз 
+                 или просто узнать второе мнение, вы можете заказать услугу онлайн-консультации.</p>
+            </div>
+          </a>
+          <a href="" class="service-card">
+            <div class="service-card__content">
+              <div class="service-card__img flex-c">
+                <img src="img/di2.svg" alt="">
+              </div>
+              <p class="title">Разработка программы лечения</p>
+              <p class="text">Eсли Вы не планируете выезд на лечение в Германию, но хотите получить личную 
+                 консультацию немецких специалистов, перепроверить поставленный диагноз 
+                 или просто узнать второе мнение, вы можете заказать услугу онлайн-консультации.</p>
+            </div>
+          </a>
+          <a href="" class="service-card">
+            <div class="service-card__content">
+              <div class="service-card__img flex-c">
+                <img src="img/di3.svg" alt="">
+              </div>
+              <p class="title">Сопровождение пациента</p>
+              <p class="text">Eсли Вы не планируете выезд на лечение в Германию, но хотите получить личную 
+                 консультацию немецких специалистов, перепроверить поставленный диагноз 
+                 или просто узнать второе мнение, вы можете заказать услугу онлайн-консультации.</p>
+            </div>
+          </a>
+          <a href="" class="service-card">
+            <div class="service-card__content">
+              <div class="service-card__img flex-c">
+                <img src="img/di4.svg" alt="">
+              </div>
+              <p class="title">Устный и письменный перевод</p>
+              <p class="text">Eсли Вы не планируете выезд на лечение в Германию, но хотите получить личную 
+                 консультацию немецких специалистов, перепроверить поставленный диагноз 
+                 или просто узнать второе мнение, вы можете заказать услугу онлайн-консультации.</p>
+            </div>
+          </a>
+          <a href="" class="service-card">
+            <div class="service-card__content">
+              <div class="service-card__img flex-c">
+                <img src="img/di5.svg" alt="">
+              </div>
+              <p class="title">Помощь в покупке лекарств</p>
+              <p class="text">Eсли Вы не планируете выезд на лечение в Германию, но хотите получить личную 
+                 консультацию немецких специалистов, перепроверить поставленный диагноз 
+                 или просто узнать второе мнение, вы можете заказать услугу онлайн-консультации.</p>
+            </div>
+          </a>
+        </div>
+        <div class="flex-s">
+          <div class="service-card card-title">
+            <p class="wb-title">Организация приезда</p>
+          </div>
+          <a href="" class="service-card">
+            <div class="service-card__content">
+              <div class="service-card__img flex-c">
+                <img src="img/di6.svg" alt="">
+              </div>
+              <p class="title">Оформление приглашения на лечение</p>
+              <p class="text">Eсли Вы не планируете выезд на лечение в Германию, но хотите получить личную 
+                 консультацию немецких специалистов, перепроверить поставленный диагноз 
+                 или просто узнать второе мнение, вы можете заказать услугу онлайн-консультации.</p>
+            </div>
+          </a>
+          <a href="" class="service-card">
+            <div class="service-card__content">
+              <div class="service-card__img flex-c">
+                <img src="img/di7.svg" alt="">
+              </div>
+              <p class="title">Бронирование гостинницы</p>
+              <p class="text">Eсли Вы не планируете выезд на лечение в Германию, но хотите получить личную 
+                 консультацию немецких специалистов, перепроверить поставленный диагноз 
+                 или просто узнать второе мнение, вы можете заказать услугу онлайн-консультации.</p>
+            </div>
+          </a>
+          <a href="" class="service-card">
+            <div class="service-card__content">
+              <div class="service-card__img flex-c">
+                <img src="img/di8.svg" alt="">
+              </div>
+              <p class="title">Организация трансфера</p>
+              <p class="text">Eсли Вы не планируете выезд на лечение в Германию, но хотите получить личную 
+                 консультацию немецких специалистов, перепроверить поставленный диагноз 
+                 или просто узнать второе мнение, вы можете заказать услугу онлайн-консультации.</p>
+            </div>
+          </a>
+          <a href="" class="service-card">
+            <div class="service-card__content">
+              <div class="service-card__img flex-c">
+                <img src="img/di9.svg" alt="">
+              </div>
+              <p class="title">Организация досуга</p>
+              <p class="text">Eсли Вы не планируете выезд на лечение в Германию, но хотите получить личную 
+                 консультацию немецких специалистов, перепроверить поставленный диагноз 
+                 или просто узнать второе мнение, вы можете заказать услугу онлайн-консультации.</p>
+            </div>
+          </a>
+          <a href="" class="service-card">
+            <div class="service-card__content">
+              <div class="service-card__img flex-c">
+                <img src="img/di10.svg" alt="">
+              </div>
+              <p class="title">Прокат авто, услуги водителя</p>
+              <p class="text">Eсли Вы не планируете выезд на лечение в Германию, но хотите получить личную 
+                 консультацию немецких специалистов, перепроверить поставленный диагноз 
+                 или просто узнать второе мнение, вы можете заказать услугу онлайн-консультации.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="section-info">
+      <div class="wrapper flex-s">
+        <div class="section-info__content">
+          <p class="num">30</p>
+          <p class="text">Направлений лечения</p>
+        </div>
+        <div class="section-info__content">
+          <p class="num">46</p>
+          <p class="text">Квалифицированных специалистов</p>
+        </div>
+        <div class="section-info__content">
+          <p class="num">9</p>
+          <p class="text">Функциональных клиник</p>
+        </div>
+        <div class="section-info__content">
+          <p class="num">107</p>
+          <p class="text">Современных кабинетов</p>
+        </div>
+      </div>
+    </div>
+    <div class="block-reviews">
+      <div class="wrapper">
+        <p class="wb-large">Что о нас говорят клиенты</p>
+        <div class="slider-holder">
+          <span class="slider-arrow slider-arrow__prev button-hidden"></span>
+          <span class="slider-arrow slider-arrow__next button-hidden"></span>
+          <div class="block-reviews__slider">
+            <div class="slider-card flex-s" data-index='1'>
+              <div class="slider-shadow"></div>
+              <div class="slider-card__img">
+                <img src="img/slider-img.png" alt="">
+              </div>
+              <div class="slider-card__content">
+                <div class="content-top">
+                  <p class="name">Мария Александрова</p>
+                  
+                </div>
+                <div class="content-middle">
+                  <p class="title">Вид услуги:</p>
+                  <p class="text">Онлайн консультация</p>
+                  <span class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ua.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non ent, sunt in culpa qui officia deserunt mollit anim id est or inciunt  la...
+                  </span>
+                </div>
+                <div class="content-bottom flex-c">
+                  <a href="" class="more">Читать отзыв полностью </a>
+                  <p class="date">01.21.2019</p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-card flex-s" data-index='2'>
+              <div class="slider-shadow"></div>
+              <div class="slider-card__img">
+                <img src="img/slider-img.png" alt="">
+              </div>
+              <div class="slider-card__content">
+                <div class="content-top">
+                  <p class="name">Мария Александрова</p>
+                  
+                </div>
+                <div class="content-middle">
+                  <p class="title">Вид услуги:</p>
+                  <p class="text">Онлайн консультация</p>
+                  <span class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ua.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non ent, sunt in culpa qui officia deserunt mollit anim id est or inciunt  la...
+                  </span>
+                </div>
+                <div class="content-bottom flex-c">
+                  <a href="" class="more">Читать отзыв полностью </a>
+                  <p class="date">01.21.2019</p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-card flex-s" data-index='3'>
+              <div class="slider-shadow"></div>
+              <div class="slider-card__img">
+                <img src="img/slider-img.png" alt="">
+              </div>
+              <div class="slider-card__content">
+                <div class="content-top">
+                  <p class="name">Мария Александрова</p>
+                  
+                </div>
+                <div class="content-middle">
+                  <p class="title">Вид услуги:</p>
+                  <p class="text">Онлайн консультация</p>
+                  <span class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ua.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non ent, sunt in culpa qui officia deserunt mollit anim id est or inciunt  la...
+                  </span>
+                </div>
+                <div class="content-bottom flex-c">
+                  <a href="" class="more">Читать отзыв полностью </a>
+                  <p class="date">01.21.2019</p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-card flex-s" data-index='4'>
+              <div class="slider-shadow"></div>
+              <div class="slider-card__img">
+                <img src="img/slider-img.png" alt="">
+              </div>
+              <div class="slider-card__content">
+                <div class="content-top">
+                  <p class="name">Мария Александрова</p>
+                  
+                </div>
+                <div class="content-middle">
+                  <p class="title">Вид услуги:</p>
+                  <p class="text">Онлайн консультация</p>
+                  <span class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ua.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non ent, sunt in culpa qui officia deserunt mollit anim id est or inciunt  la...
+                  </span>
+                </div>
+                <div class="content-bottom flex-c">
+                  <a href="" class="more">Читать отзыв полностью </a>
+                  <p class="date">01.21.2019</p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-card flex-s" data-index='5'>
+              <div class="slider-shadow"></div>
+              <div class="slider-card__img">
+                <img src="img/slider-img.png" alt="">
+              </div>
+              <div class="slider-card__content">
+                <div class="content-top">
+                  <p class="name">Мария Александрова</p>
+                  
+                </div>
+                <div class="content-middle">
+                  <p class="title">Вид услуги:</p>
+                  <p class="text">Онлайн консультация</p>
+                  <span class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ua.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non ent, sunt in culpa qui officia deserunt mollit anim id est or inciunt  la...
+                  </span>
+                </div>
+                <div class="content-bottom flex-c">
+                  <a href="" class="more">Читать отзыв полностью </a>
+                  <p class="date">01.21.2019</p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-card flex-s" data-index='6'>
+              <div class="slider-shadow"></div>
+              <div class="slider-card__img">
+                <img src="img/slider-img.png" alt="">
+              </div>
+              <div class="slider-card__content">
+                <div class="content-top">
+                  <p class="name">Мария Александрова</p>
+                </div>
+                <div class="content-middle">
+                  <p class="title">Вид услуги:</p>
+                  <p class="text">Онлайн консультация</p>
+                  <span class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ua.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non ent, sunt in culpa qui officia deserunt mollit anim id est or inciunt  la...
+                  </span>
+                </div>
+                <div class="content-bottom flex-c">
+                  <a href="" class="more">Читать отзыв полностью </a>
+                  <p class="date">01.21.2019</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-buttons">
+          <button class="slider-arrow slider-arrow__prev"><i class="icon-uniE011"></i></button>
+          <div class="slider-info">
+            <span class="current-index"></span>
+            <span class="separator">/</span>
+            <span class="slides-lenght"></span>
+          </div>
+          <button class="slider-arrow slider-arrow__next"><i class="icon-uniE011"></i></button>
+        </div>
+        <a href="#" class="standart-btn">Смотреть все отзывы</a>
+      </div>
+    </div>
+    <div class="block-partners">
+      <div class="wrapper">
+        <p class="wb-large">наши партнеры</p>
+        <div class="block-partners__content flex-c">
+          <div class="block-partners__el flex-c-c">
+            <img src="img/partners1.png" alt="">
+          </div>
+          <div class="block-partners__el flex-c-c">
+            <img src="img/partners2.png" alt="">
+          </div>
+          <div class="block-partners__el flex-c-c">
+            <img src="img/partners3.png" alt="">
+          </div>
+          <div class="block-partners__el flex-c-c">
+            <img src="img/partners4.png" alt="">
+          </div>
+          <div class="block-partners__el flex-c-c">
+            <img src="img/partners4.png" alt="">
+          </div>
+          <div class="block-partners__el flex-c-c">
+            <img src="img/partners6.png" alt="">
+          </div>
+          <div class="block-partners__el flex-c-c">
+            <img src="img/partners7.png" alt="">
+          </div>
+          <div class="block-partners__el flex-c-c">
+            <img src="img/partners8.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="block-contact" style="background-image: url(img/block-contact__bg.png);">
+      <div class="wrapper" id="form">
+        <p class="wb-title">Свяжитесь с нами</p>
+        <form action="" class="contact-form">
+          <div class="contact-form__fields flex-c">
+            <label class="form-label">
+              <input type="text" name="name" class="form-label__input" placeholder="Имя (не обязательно)" value="">
+            </label>
+            <label class="form-label">
+              <input type="text" name="phone" class="form-label__input" placeholder="Телефон (не обязательно)" value="">
+            </label>
+            <label class="form-label tablet-100">
+              <input type="email" name="email" class="form-label__input" placeholder="Email (обязательно)" value="" required="">
+            </label>
+            <label class="form-label width-100">
+              <textarea name="text" class="form-label__input" value="" placeholder="Сообщение"></textarea>
+            </label>
+          </div>
+          <div class="file-wrapper">
+            <p class="block-title">Прикрепить файлы:</p>
+            <p class="block-description">Прикрепите файлы с иформацией о вашей болезни для сокращения времени обработки заявки (справки, выписки из истории болезни, рентген снимки) в формате .jpg, .png, .pdf, .doc, .docx, .zip, .rar</p>
+            <label for="input-file" class="input-dropdown standart-btn flex-c-c">
+              <p class="title">прикрепить файл</p>
+              <input id="input-file" type="file" name="files" class="js-file-uploader" accept=".png, .jpg, .jpeg, .pdf, .doc, .docx, .zip, .rar">
+            </label>
+            <div class="selectedFiles flex-c">
+            </div>
+          </div>
+          <div class="block-checkbox">
+            <label class="container">
+              <input type="checkbox" class="js-signature__checkbox" name="checbox-1">
+              <span class="text">Сохранить данные и создать Личный кабинет</span>
+              <span class="checkmark"></span>
+            </label>
+            <div class="width-100"></div>
+            <label class="container">
+              <input type="checkbox" class="js-signature__checkbox" name="checbox-2" required="">
+              <span class="text">Я даю согласие на обработку моих персональных данных. <a href="#">Подробнее</a></span>
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          <button class="standart-btn btn-orange">Отправить</button>
+        </form>
+      </div>
+    </div>
+    <div class="modal" data-target="enter">
+      <div class="modal__zoom">
+        <div class="modal-content">
+          <span class="close-modal"><i class="icon-uniE10A"></i></span>
+          <p class="title">Войти</p>
+          <label class="form-label">
+            <input type="email" name="email" class="form-label__input" placeholder="Электронная почта" value="" required="">
+          </label>
+          <label class="form-label form-label__pass">
+            <input type="password" name="email" class="form-label__input" placeholder="Пароль" value="" required="">
+            <span class="show-pass flex-c"><i class="icon-uniE052"></i></span>
+          </label>
+          <button class="standart-btn btn-orange">оставить заявку</button>
+          <a href="#" class="forgot">Я забыл(а) пароль</a>
+          <p class="auth">Я не зарегистрированный пользователь. <button class="link js-modal-btn" data-target="register">Зарегистрироваться</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="modal" data-target="register">
+      <div class="modal__zoom">
+        <div class="modal-content">
+          <span class="close-modal"><i class="icon-uniE10A"></i></span>
+          <p class="title">Регистрация</p>
+          <label class="form-label">
+            <input type="text" name="email" class="form-label__input" placeholder="Имя" value="" required="">
+          </label>
+          <label class="form-label">
+            <input type="email" name="email" class="form-label__input" placeholder="Электронная почта" value="" required="">
+          </label>
+          <label class="form-label form-label__pass">
+            <input type="password" name="email" class="form-label__input" placeholder="Пароль" value="" required="">
+            <span class="show-pass flex-c"><i class="icon-uniE052"></i></span>
+          </label>
+          <label class="form-label form-label__pass">
+            <input type="password" name="email" class="form-label__input" placeholder="Подтвердите пароль" value="" required="">
+            <span class="show-pass flex-c"><i class="icon-uniE052"></i></span>
+          </label>
+          <label class="container">
+            <input type="checkbox" class="js-signature__checkbox" name="checbox-2" required="">
+            <span class="text">Я даю согласие на обработку моих персональных данных. <a href="#">Подробнее</a></span>
+            <span class="checkmark"></span>
+          </label>
+          <button class="standart-btn btn-orange">оставить заявку</button>
+          <p class="auth">У меня уже есть аккаунт. <button class="link js-modal-btn" data-target="enter">Войти</button></p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="wrapper flex-c">
+      <div class="footer-content flex-c">
+        <div class="footer-content__logo">
+          <img src="img/logo-white.png" alt="">
+          <div class="flex-c">
+            <img src="img/visa.png" alt="">
+            <img src="img/paypal.png" alt="">
+            <img src="img/mastercard.png" alt="">
+          </div>
+        </div>
+        <div class="footer-content__contacts">
+          <a href="tel:+49 176 412 26 000" class="link">+49 176 412 26 000</a>
+          <a href="tel:+49 176 412 26 000" class="link">+49 176 412 26 000</a>
+          <a href="tel:+49 176 412 26 000" class="link">+49 176 412 26 000</a>
+        </div>
+      </div>
+      <div class="footer-content flex-c">
+        <div class="footer-content__links">
+          <a href="#" class="contact-link">свяжитесь с нами</a>
+          <a href="mailto:medtourism@gmail.com" class="link">medtourism@gmail.com</a>
+          <a href="#" class="link">Вопросы и ответы</a>
+        </div>
+      </div>
+      <ul class="social-list flex-c">
+        <li class="social-list__item">
+          <a href="#" class="flex-c-c"><img src="img/yt.svg" alt=""></a>
+        </li>
+        <li class="social-list__item">
+          <a href="#" class="flex-c-c"><img src="img/vk.svg" alt=""></a>
+        </li>
+        <li class="social-list__item">
+          <a href="#" class="flex-c-c"><img src="img/fb.svg" alt=""></a>
+        </li>
+        <li class="social-list__item">
+          <a href="#" class="flex-c-c"><img src="img/inst.svg" alt=""></a>
+        </li>
+        <li class="social-list__item">
+          <a href="#" class="flex-c-c"><img src="img/mail.svg" alt=""></a>
+        </li>
+        <li class="social-list__item">
+          <a href="#" class="flex-c-c"><img src="img/viber.svg" alt=""></a>
+        </li>
+        <li class="social-list__item">
+          <a href="#" class="flex-c-c"><img src="img/watsapp.svg" alt=""></a>
+        </li>
+        <li class="social-list__item">
+          <a href="#" class="flex-c-c"><img src="img/skype.svg" alt=""></a>
+        </li>
+      </ul>
+    </div>
+    <p class="footer-copy flex-c-c">Мария Рукшина | Все права защищены | 2019 </p>
+  </footer>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    APP.$document.ready(function(){
+      APP.sliderButton = $('.slider-arrow');
+      APP.circleParent = $('.map-block__circle');
+
+      (function(){
+        //    check swipe
+        $(document).on('touchstart','.block-reviews__slider', handleTouchStart);
+        $(document).on('touchmove','.block-reviews__slider', handleTouchMove);
+        var xDown = null;
+        function handleTouchStart(evt) {
+            xDown = evt.touches[0].clientX;
+        };
+        function handleTouchMove(evt) {
+            if ( ! xDown ) {
+                return;
+            }
+
+            var xUp = evt.touches[0].clientX,
+                xDiff = xDown - xUp;
+            if(Math.abs( xDiff ) > 40){
+
+              if ( Math.abs( xDiff )) {
+                  if ( xDiff > 0 ) {
+                      $('.slider-arrow__next:not(.button-hidden)').click();
+                  } else {
+                      $('.slider-arrow__prev:not(.button-hidden)').click();
+                  }                       
+              }
+            xDown = null;
+            }
+        };
+      }());
+
+      $('.slider-card[data-index="3"]').addClass('active');
+
+      (function(){
+        var cardLenght = $('.block-reviews').find('.slider-card').length;
+
+        $('.slides-lenght').html(cardLenght);
+        function sliderStyle(){
+          var attr = $('.slider-card.active').attr('data-index'),
+              position = $('.slider-card.active').parents('.block-reviews__slider').width() - $('.slider-card.active').width(),
+              positionLeft = (position  / 2);
+
+          $('.slider-card.active').css({
+          'left': positionLeft,
+          });
+          $('.current-index').html(attr);
+        };
+        sliderStyle();
+
+        APP.sliderButton.on('click', function(){
+          var parent = $(this).parents('.block-reviews'),
+              sliderParend = parent.find('.block-reviews__slider'),
+              sliderCard = sliderParend.find('.slider-card'),
+              activeIndex = sliderParend.find('.slider-card.active').index();
+
+          if($(this).hasClass('slider-arrow__prev')){
+            sliderCard.removeClass('active').css({
+            'left':'0px',
+            });
+            sliderCard.eq(activeIndex -= 1).addClass('active');
+            APP.$document.find(sliderCard).last().prependTo(sliderParend);
+          }else if($(this).hasClass('slider-arrow__next')){
+            sliderCard.removeClass('active').css({
+            'left':'0px',
+            });
+            sliderCard.eq(activeIndex += 1).addClass('active');
+            APP.$document.find(sliderCard).first().appendTo(sliderParend);
+          }
+
+          sliderStyle();
+        });
+
+        $(window).resize(function(){
+          sliderStyle();
+        });
+      }());
+
+
+
+
+
+      // custom input file with removable items
+      function readURL(input,fileName) {
+
+        if( input.files && input.files[0] ) {
+          var reader = new FileReader();
+
+          reader.readAsDataURL(input.files[0]);
+
+          reader.onload = function(e) {
+          
+          var appendInput = '<input type="hidden" name="file[]" data-title="'+fileName+'" value="'+e.target.result+'">';
+          
+          $(input).parents('.file-wrapper').find('.input-dropdown').append(appendInput);
+          }
+        };
+      };
+
+      $(".js-file-uploader").on("change", function (event) {
+        var files = event.originalEvent.target.files,
+            sliceAftDot = files[0].name.slice((files[0].name.lastIndexOf(".")+1  >>> 0)),
+            fileName = files[0].name.slice(0,files[0].name.lastIndexOf(".")),
+            sliceBefDot = (fileName.replace(/[^a-zA-Zа-яА-Я0-9]/g,'') == "")? undefined : fileName.replace(/[^a-zA-Zа-яА-Я0-9]/g,''),
+            appendContent ='<div class="selectedFiles__el" title="'+files[0].name+'">'
+                            +'<i class="icon-uniE130""></i>'
+                                +'<div class="files-text">'
+                                  +'<span class="selectedFiles__name">'+sliceBefDot+'</span>'
+                                  +'<span class="selectedFiles__ext">'+'.'+sliceAftDot+'</span>'
+                                +'</div>'
+                              +'<span class="selectedFiles__remove icon-uniE10A"></span>'
+                            +'</div>';
+
+        if( this.files[0].size < 5000000 && $(this).parents('.file-wrapper').find('input[data-title='+sliceBefDot+']').length == 0 ){
+            readURL(this , sliceBefDot);
+
+            $(this).parents('.file-wrapper').find('.selectedFiles').append(appendContent);
+
+            $('.selectedFiles__el:last').hide();
+            $('.selectedFiles__el:last').fadeIn( 300 );
+        }else{
+            alert("Ошибка");
+            this.value = "";
+        };
+
+        $(this).val('');
+      });
+
+      $(document).on('click','.selectedFiles__remove',function(){
+        var fileName = $(this).parents('.selectedFiles__el').find('.selectedFiles__name').text();
+
+        $(this).parents('.file-wrapper').find('input[data-title='+fileName+']').remove();
+        $(this).parents('.selectedFiles__el').remove();
+      });
+
+    APP.$document.on('click', '.pl-circle', function(){
+      var circle = $('.pl-circle'),
+          target = $(this).attr('data-target'),
+          mapBlock = $('.map-block__circle'),
+          targetContent = $('.target-content');
+
+      mapBlock.addClass('active');
+      circle.not(this).removeClass('active');
+      targetContent.not('[data-target=' + target + ']').fadeOut(150);
+      if(!$(this).hasClass('delay')){
+        circle.not(this).addClass('delay');
+        $(this).addClass('active');
+        $('.target-content[data-target=' + target + ']').fadeIn(600);
+      }else{
+        var thisEl = $(this);
+
+        circle.addClass('delay');
+          thisEl.addClass('active');
+          
+        $('.target-content[data-target=' + target + ']').fadeIn(600);
+      };
+    });
+
+
+    APP.circleParent.on('mouseleave', function(){
+      var activeLenght = $('.pl-circle.active').length,
+          thisEl = $(this);
+
+      if(activeLenght > 0){
+        setTimeout(function(){
+          thisEl.removeClass('active');
+        }, 300);
+      }else{
+        thisEl.removeClass('active');
+      }
+
+      $('.pl-circle').removeClass('active delay');
+      $('.target-content').fadeOut(150);
+    }).on('mouseenter', function(){
+      $(this).addClass('active');
+    });
+
+    });//document ready;
+
+    APP.$document.on("click"," .js-scroll" , function (event) {
+      event.preventDefault();
+
+      var id  = $(this).attr('href'),
+          top = $(id).position().top;
+
+      $('body').removeClass('active');
+      $('body,html').animate({scrollTop: top}, 500);
+    });
+    //
+  </script>
+</body>
+</html>
