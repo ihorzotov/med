@@ -603,6 +603,7 @@
     max-height: 0px;
     opacity: 1;
     overflow: hidden;
+    overflow-y: hidden;
     transition: max-height .5s, margin .3s;
     transition-delay: 0s , .3s;
     &__services{

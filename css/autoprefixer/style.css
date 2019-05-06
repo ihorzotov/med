@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* NORMALIZE
 /* ================================================ */
 html, body, div, span, applet, main, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -140,6 +139,62 @@ ul {
   font-weight: 700;
 }
 
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.ttf?3z1puj") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-baloon:before {
+  content: "\e900";
+}
+
+.icon-person:before {
+  content: "\e901";
+}
+
+.icon-uniE011:before {
+  content: "\e0a1";
+}
+
+.icon-uniE10A:before {
+  content: "\e711";
+}
+
+.icon-uniE00E:before {
+  content: "\e012";
+}
+
+.icon-uniE00F:before {
+  content: "\e00f";
+}
+
+.icon-uniE7EB:before {
+  content: "\e7eb";
+}
+
+.icon-uniE052:before {
+  content: "\e18b";
+}
+
+.icon-uniE130:before {
+  content: "\e130";
+}
+
 html {
   overflow-x: hidden;
 }
@@ -218,17 +273,17 @@ span, a, label {
 }
 
 .wrap-drop .selected-el::after {
-  content: '\e90c';
+  content: '\e0a1';
   font-family: 'icomoon';
   color: #000;
   position: absolute;
-  font-size: 18px;
+  font-size: 8px;
   right: 0px;
   top: 50%;
   -webkit-transform: rotate(0deg) translateY(-50%);
   transform: rotate(0deg) translateY(-50%);
-  -webkit-transform-origin: 7px 0px;
-  transform-origin: 7px 0px;
+  -webkit-transform-origin: 3px 0px;
+  transform-origin: 3px 0px;
   -webkit-transition: color 0.3s, -webkit-transform 0.4s;
   transition: color 0.3s, -webkit-transform 0.4s;
   transition: transform 0.4s, color 0.3s;
@@ -436,6 +491,21 @@ span, a, label {
 
 /*=======================*/
 /*form*/
+.form-label__pass {
+  position: relative;
+}
+
+.form-label__pass .show-pass {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  width: 40px;
+  border-radius: 0 24px 24px;
+  height: 100%;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 .form-label__input {
   width: 100%;
   resize: none;
@@ -541,6 +611,17 @@ textarea.form-label__input {
   width: 120px;
 }
 
+.header__auth .mobile-auth {
+  margin-left: auto;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: #67b049;
+  border: 1px solid #67b049;
+  font-size: 15px;
+  display: none;
+}
+
 .nav-list {
   height: 100%;
   width: calc(86% - 600px);
@@ -594,13 +675,14 @@ textarea.form-label__input {
 }
 
 .nav-list__item.nav-list__dropdown > .title:before {
-  content: '˘';
-  font-size: 12px;
+  content: '\e0a1';
+  font-family: 'icomoon';
+  font-size: 8px;
   position: absolute;
   right: 0;
   top: 50%;
-  -webkit-transform: translateY(-50%) rotate(-180deg);
-  transform: translateY(-50%) rotate(-180deg);
+  -webkit-transform: translateY(-50%) rotate(0deg);
+  transform: translateY(-50%) rotate(0deg);
   -webkit-transition: -webkit-transform .3s;
   transition: -webkit-transform .3s;
   transition: transform .3s;
@@ -618,8 +700,8 @@ textarea.form-label__input {
 }
 
 .nav-list__item.nav-list__dropdown.active > .title:before {
-  -webkit-transform: translateY(-50%) rotate(0deg);
-  transform: translateY(-50%) rotate(0deg);
+  -webkit-transform: translateY(-50%) rotate(-180deg);
+  transform: translateY(-50%) rotate(-180deg);
 }
 
 .nav-list__item + .nav-list__item {
@@ -766,7 +848,8 @@ textarea.form-label__input {
 }
 
 .tabs-list__item:before {
-  content: '>';
+  content: '\e00f';
+  font-family: 'icomoon';
   font-size: 12px;
   position: absolute;
   right: 0;
@@ -901,7 +984,8 @@ textarea.form-label__input {
 }
 
 .block-location .adress:before {
-  content: '1';
+  content: '\e900';
+  font-family: 'icomoon';
   position: absolute;
   left: 0;
   top: -1px;
@@ -932,6 +1016,10 @@ textarea.form-label__input {
   background-size: cover;
   height: 665px;
   margin-bottom: 10px;
+}
+
+.main-scnd__mobile {
+  display: none;
 }
 
 .map-block {
@@ -1047,7 +1135,7 @@ textarea.form-label__input {
 .pl-circle {
   width: 100px;
   height: 100px;
-  border-radius: inherit;
+  border-radius: 50%;
   background: #fff;
   z-index: 2;
   position: absolute;
@@ -1393,6 +1481,8 @@ textarea.form-label__input {
 
 .slider-card.active ~ .slider-card {
   left: 27% !important;
+  margin-left: 0;
+  margin-right: -40px;
 }
 
 .slider-card.active + .slider-card {
@@ -1413,7 +1503,8 @@ textarea.form-label__input {
   letter-spacing: -0.17px;
   position: absolute;
   top: 0;
-  left: -40px;
+  left: 0px;
+  margin-left: -40px;
   right: auto;
   z-index: 1;
   background: #fff;
@@ -1597,6 +1688,7 @@ textarea.form-label__input {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 50px;
+  line-height: 1;
 }
 
 .contact-form__fields {
@@ -1807,6 +1899,127 @@ textarea.form-label__input {
 }
 
 /*=======================*/
+/*MODAL*/
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 102;
+  padding: 100px 0 30px 0;
+  overflow-x: hidden;
+}
+
+.modal.active {
+  display: block;
+}
+
+.modal.active .modal__zoom {
+  -webkit-animation-name: zoom;
+  animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-duration: 0.6s;
+}
+
+.modal .close-modal {
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  color: #202120;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+.modal-content {
+  position: relative;
+  width: 470px;
+  padding: 60px;
+  background: #fff;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.modal-content .title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #5baa3a;
+  margin-bottom: 40px;
+}
+
+.modal-content .form-label {
+  width: 100%;
+}
+
+.modal-content .form-label__input {
+  border: 1px solid #666;
+}
+
+.modal-content .form-label + .form-label {
+  margin-top: 30px;
+}
+
+.modal-content .btn-orange {
+  width: 100%;
+  margin: 30px 0 20px 0;
+}
+
+.modal-content .forgot {
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+  color: #5baa3a;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+.modal-content .auth {
+  font-size: 12px;
+  text-align: center;
+  line-height: 18px;
+}
+
+.modal-content .auth .link {
+  color: #5baa3a;
+  text-decoration: underline;
+}
+
+.modal-content .container {
+  padding-left: 33px;
+  margin-top: 15px;
+}
+
+.modal-content .container .text {
+  font-size: 12px;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/**/
 /*FOOTER*/
 /*=======================*/
 .footer {
@@ -1891,7 +2104,6 @@ textarea.form-label__input {
   width: 50px;
   height: 32px;
   margin: 0 20px 20px 0;
-  text-align: center;
   border-radius: 15px;
   background: #484848;
   font-size: 18px;
@@ -1909,8 +2121,9 @@ textarea.form-label__input {
   margin-right: 0;
 }
 
-.social-list__item i {
-  line-height: 32px;
+.social-list__item img {
+  max-height: 19px;
+  max-width: 20px;
 }
 
 /*=======================*/

@@ -11,5 +11,13 @@
     "browser-sync": "^2.26.3",
     "gulp": "^3.9.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihorzotov/med.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ihorzotov/med/issues"
+  },
+  "homepage": "https://github.com/ihorzotov/med#readme",
   "description": ""
 }
